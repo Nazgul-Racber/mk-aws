@@ -9,19 +9,18 @@ const SecurityBusiness = () => {
         <div className="text-center px- py-2  mb-2 mt-4">
           {/* img and title */}
           <div className="flex justify-center items-center">
-            <div className="">
+            <div>
               <img src={Grup1} className="mr-4 max-h-80 " />
             </div>
             <div>
-              <h2 className=" text-fuchsia-800 text-4xl font-bold font-sans m-2">
+              <h2 className=" text-fuchsia-800 text-6xl font-bold font-sans m-2">
                 SECURITY
               </h2>
-              <p className=" ml-4 text-gray-500 text-2xl font-sans font-bold ">
+              <p className=" ml-4 text-gray-500 text-4xl font-sans font-bold ">
                 Secure the core of your business
               </p>
             </div>
           </div>
-
           <hr className="border-fuchsia-800 border-[1.5px] dark:border-gray-700 "></hr>
           {/* <div className="bg-orange-500 h-1"></div> */}
         </div>
@@ -120,20 +119,22 @@ const SecurityBusiness = () => {
         <div className="text-center px-2 py-2  mb-2 mt-4">
           {/* img and title */}
           <div className="flex justify-center items-center">
-            <img src={Cloud} className="max-h-80 " />
-            {/* küçük ekranda img responsive'ni ayarla */}
-            <div>
-              <h2 className="text-4xl font-bold font-sans text-teal-500 m-2">
+            <div className="max-w-2xl">
+              <h2 className="text-5xl font-bold font-sans text-teal-500 m-2">
                 FEATURED SERVICES
               </h2>
-              <p className="mb-2 text-gray-500 text-3xl font-serif font-bold ">
+              <p className="mb-2 mt-4 text-gray-500 text-4xl font-serif font-bold ">
                 Your Trusted Partner in System Security
               </p>
-              <p className="mb-2 text-gray-500 text-2xl font-sans font-semibold">
+              <p className="mb-2 text-gray-500 text-3xl font-sans font-semibold">
                 Discover how The Scale Factory can help you to secure your
-                systems, <br /> protect your data, and grow your business.
+                systems, protect your data, and grow your business.
               </p>
             </div>
+            <div>
+              <img src={Cloud} className=" max-h-80 " />
+            </div>
+            
           </div>
 
           <hr className="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr>

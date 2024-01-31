@@ -4,7 +4,7 @@ import Push from "../assets/pictures/undraw_Push_notifications_re_t84m.png";
 import Cost from "../assets/pictures/undraw_Transfer_money_re_6o1h.png";
 import Contact from "../assets/pictures/undraw_Contact_us_re_4qqt.png";
 import Solution from "../assets/pictures/undraw_Real_time_sync_re_nky7.png";
-// import Optimization from "../assets/pictures/optimization.jpg";
+
 const Main = () => {
   return (
     <>
@@ -15,14 +15,11 @@ const Main = () => {
       <main className="text-center bg-[#36b6abee] py-2 ">
         {/* img and title */}
         <div className="flex justify-center items-center">
-          {/* <div className="">
-            <img src={Optimization} className="opacity-[0.8] max-w-80 " />
-          </div> */}
           <div className="m-4">
-            <h2 className=" opacity-[0.8] text-5xl  font-bold font-serif text-gray-800 m-4  ">
+            <h2 className=" opacity-[0.8] text-6xl  font-bold font-sans text-gray-800 m-4  ">
               ELEVATE YOUR BUSINESS <br /> WITH CLOUDIFIERS
             </h2>
-            <p className="text-3xl  max-w-7xl  text-teal-800  font-serif font-bold mb-8 p-4 ">
+            <p className="text-3xl max-w-5xl  text-zinc-100  font-sans font-bold mb-8 p-4 ">
               Your Gateway to Advanced Cloud Solutions. Cloudifiers is committed
               to enhancing the IT capabilities of small and medium-sized UK
               businesses. Our mission is to demystify cloud technology, making

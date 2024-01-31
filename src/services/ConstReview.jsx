@@ -19,11 +19,11 @@ const ConstReview = () => {
             <img src={analysıs} className="mr-8 max-h-80 " />
           </div>
           <div>
-            <h2 className="text-3xl text-left font-bold font-sans text-teal-500 ml-8 m-4 mt-8">
+            <h2 className="text-5xl font-bold font-sans text-teal-500 ml-8 m-4 mt-8">
               COST OPTIMIZATION
             </h2>
-            <p className="ml-8 text-gray-400 text-2xl font-serif font-bold ">
-              Minimize Your Expenses, Maximize Your Growth.
+            <p className="ml-8 text-gray-400 text-4xl font-serif font-bold ">
+              Minimize Your Expenses <br /> Maximize Your Growth
             </p>
           </div>
         </div>
@@ -32,8 +32,8 @@ const ConstReview = () => {
         {/* <div className="bg-orange-500 h-1"></div> */}
       </main>
       {/* main2 */}
-      <main className="bg-zinc-200 ">
-        <main className="container font-bold  bg-zinc-100 text-gray-900 mx-auto px-2 py-2 ">
+      <main className="bg-zinc-50 ">
+        <main className="container font-bold   text-gray-900 mx-auto px-2 py-2">
           {/* section1 */}
           <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
             <div className="p-6 rounded-lg">

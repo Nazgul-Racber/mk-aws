@@ -13,14 +13,14 @@ const CloudMig = () => {
         <div className="text-center px- py-2  mb-2 mt-4">
           {/* img and title */}
           <div className="flex justify-center items-center">
-            <div className="">
+            <div>
               <img src={Cloud} className="max-h-80 " />
             </div>
             <div>
-              <h2 className="text-3xl font-bold font-sans text-teal-500 m-4 mt-8">
+              <h2 className="text-5xl font-bold font-sans text-teal-500 m-4 mt-8">
                 CLOUD MIGRATION
               </h2>
-              <p className="text-gray-500 text-xl font-sans font-bold ">
+              <p className="text-gray-500 text-4xl max-w-lg font-sans font-bold ">
                 Migrate with confidence and grow your business.
               </p>
             </div>
@@ -30,7 +30,7 @@ const CloudMig = () => {
           {/* <div className="bg-orange-500 h-1"></div> */}
         </div>
         {/* section1 */}
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+        <section className="font-semibold text-gray-700 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           <div className="p-6 rounded-lg">
             <div className="flex justify-center items-center" />
 
@@ -68,7 +68,7 @@ const CloudMig = () => {
           </div>
         </section>
         {/* section2 */}
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+        <section className="font-semibold text-gray-700 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           <div className="p-6 rounded-lg">
             <div className="flex justify-center items-center" />
 
@@ -115,22 +115,11 @@ const CloudMig = () => {
       </main>
       {/* main2 */}
       <main className="container mx-auto bg-[#fbf4eb] rounded-lg">
-        <div className="text-center opacity-[0.9] border-l-8 border-orange-600 rounded-lg bg-[#f7992d] py-3  mb-2 mt-8">
-          {/* <p className=" text-gray-900 font-sans font-bold">
-            Discover the Cloudifiers difference and how our expertise can
-            revolutionize your business operations. <br /> Get in touch today to
-            begin your journey to the cloud.
-          </p>
-          <div>
-            <p className="font-bold text-orange-600 ">
-              iletişim tel: <span className="text-black">0546 546####</span>{" "}
-            </p>
-          </div> */}
-        </div>
+        <div className="text-center opacity-[0.9] border-l-8 border-orange-600 rounded-lg bg-[#f7992d] py-3  mb-2 mt-8"></div>
         <div className="flex justify-center items-center mb-8">
           <img src={Time} className="opacity-[0.9] max-h-80 " />
         </div>
-        <section className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap8">
+        <section className="font-semibold text-gray-700 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap8">
           <div className=" p-6 rounded-lg">
             <div className="flex justify-center items-center" />
             <h3 className="text-2xl font-bold text-gray-600 mb-4">
