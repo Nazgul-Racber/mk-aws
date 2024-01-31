@@ -13,13 +13,13 @@ const BuildAws = () => {
       <main className="container text-gray-700 mx-auto px- py-2 bg-white">
         {/* ####section#### 1 */}
         <div className=" px- py-2  mb-2 mt-10">
-          <h2 className="text-4xl font-bold font-serif text-blue-600 mb-2">
+          <h2 className="text-4xl font-bold font-serif text-teal-500 mb-2">
             BUILD AWS INFRASTRUCTURE
           </h2>
           <p className="text-3xl text-gray-700 font-serif font-bold mb-2 ">
             Accelerate Your Cloud Infrastructure with Expertise and Partnership
           </p>
-          <hr class="border-blue-400 border-[1.5px] dark:border-gray-700 mb-4"></hr>
+          <hr class="border-teal-400 border-[1.5px] dark:border-gray-700 mb-4"></hr>
           <p className="mb-4 font-semibold text-3xl">
             Building a robust AWS infrastructure is pivotal to your cloud
             journey. Partner with us to gain access to top-tier engineering
@@ -33,9 +33,9 @@ const BuildAws = () => {
           {/* =====a1==== */}
           <a
             href="#"
-            className="text-lg shadow-lg shadow-blue-400  flex flex-col items-center bg-white border border-purple-200 rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="text-lg shadow-lg shadow-teal-500  flex flex-col items-center bg-white border border-purple-200 rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <article className="rounded p-2 h-full bg-blue-500"></article>
+            <article className="rounded p-2 h-full bg-teal-500"></article>
 
             <div className=" flex flex-col justify-between p-4 leading-normal">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-white">
@@ -47,19 +47,16 @@ const BuildAws = () => {
                 understanding of the infrastructure from the ground up. No
                 Handover Hassles: With our model, your team becomes
                 self-sufficient, eliminating the need for extensive handovers.
-                You own the process and the product from day one. Tailored
-                Expertise: Our AWS-certified engineers don't just build; they
-                mentor and explain, leaving your team with not just a system,
-                but the rationale behind it.
+
               </p>
             </div>
           </a>
           {/* ====a2===== */}
           <a
             href="#"
-            className="text-lg shadow-lg shadow-blue-400 flex flex-col items-center bg-white border border-purple-200 rounded-lg md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="text-lg shadow-lg shadow-teal-500 flex flex-col items-center bg-white border border-purple-200 rounded-lg md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <article className="rounded p-2 h-full bg-blue-500"></article>
+            <article className="rounded p-2 h-full bg-teal-500"></article>
 
             <div className="flex flex-col justify-between p-4 leading-normal">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-white">
@@ -75,9 +72,9 @@ const BuildAws = () => {
           {/* ======a3===== */}
           <a
             href="#"
-            className="text-lg shadow-lg shadow-blue-400 flex flex-col items-center bg-white border border-purple-200 rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="text-lg shadow-lg shadow-teal-500 flex flex-col items-center bg-white border border-purple-200 rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <article className="rounded p-2 h-full bg-blue-500"></article>
+            <article className="rounded p-2 h-full bg-teal-500"></article>
             {/* <img
               className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
               src="Part3"
@@ -97,7 +94,7 @@ const BuildAws = () => {
           </a>
         </section>
         <div className="px- py-2  mb-2 mt-8">
-          <h2 className="text-4xl font-bold font-sans text-indigo-600 mb-4 mt-16">
+          <h2 className="text-4xl font-bold font-sans text-teal-500 mb-4 mt-16">
             Your AWS Partner for Growth
           </h2>
           <p className="text-2xl font-serif font-bold mb-4 ">
@@ -105,14 +102,13 @@ const BuildAws = () => {
             solutions to enhance agility, <br /> accelerate innovation, and drive
             success for dynamic small and medium-sized enterprises.
           </p>
-          <hr class="border-purple-400 border-[1.5px] dark:border-gray-700 "></hr>
-          {/* <div className="bg-orange-500 h-1"></div> */}
+          <hr class="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr>
         </div>
-        <section className="text-md font-semibold grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+        <section className="text-gray-700 text-lg font-semibold grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           <div className="p-6 rounded-lg">
             <div className="flex justify-center items-center" />
             <img src={Push} className="max-w-full h-auto" />
-            <h3 className="text-2xl font-bold font-serif text-indigo-600 mb-4">
+            <h3 className="text-2xl font-bold font-serif text-gray-700 mb-4">
               DEPLOY
             </h3>
             <p className="">
@@ -124,7 +120,7 @@ const BuildAws = () => {
             </p>
           </div>
           <div className="p-6 rounded-lg">
-            <h3 className="text-2xl font-bold font-serif text-indigo-600 mb-4">
+            <h3 className="text-2xl font-bold font-serif text-gray-700 mb-4">
               MIGRATE
             </h3>
             <p>
@@ -138,7 +134,7 @@ const BuildAws = () => {
           </div>
           <div className="p-6 rounded-lg">
             <img src={Contact} className="max-w-full h-auto" />
-            <h3 className="text-2xl font-bold font-serif text-indigo-600 mb-4">
+            <h3 className="text-2xl font-bold font-serif text-gray-700 mb-4">
               UPGRADE
             </h3>
             <p>
@@ -148,23 +144,11 @@ const BuildAws = () => {
               ensure your AWS infrastructure evolves with your business.
             </p>
           </div>
-        </section>
-        {/* alt açıklama */}
-        <div className="text-center border-l-8 border-blue-700 rounded-lg bg-purple-400 px- py-2  mb-2 mt-8">
-          <p className=" text-gray-800 font-sans font-bold">
-            Discover the Cloudifiers difference and how our expertise can
-            revolutionize your business operations. <br /> Get in touch today to
-            begin your journey to the cloud.
-          </p>
-          <div>
-            <p className="font-bold text-blue-700 ">
-              iletişim tel: <span className="text-black">0546 546####</span>{" "}
-            </p>
-          </div>
-        </div>
+        </section>   
+        
       </main>
       {/* ====main2==== */}
-      <main className="container mx-auto px-4 py-2 bg-gray-100 rounded-lg">
+      <main className="container text-gray-600 font-semibold mx-auto mt-8 mb-8 p-8 bg-gray-100 rounded-lg">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-gray-600 mb-4 mt-6">
             DISCOVER HOW WE CAN HELP YOU.
@@ -199,7 +183,7 @@ const BuildAws = () => {
             </p>
             <a
               href="#"
-              className="inline-block mt-4 bg-gray-500 hover:bg-purple-500 text-white font-bold py-2 px-4 rounded"
+              className="inline-block mt-8 bg-gray-500 hover:bg-teal-500 text-white font-bold py-2 px-4  rounded"
             >
               Learn More
             </a>
@@ -219,8 +203,7 @@ const BuildAws = () => {
               <polyline points="2 17 12 22 22 17" />{" "}
               <polyline points="2 12 12 17 22 12" />
             </svg>
-            <br />
-            <h3 className="text-2xl font-bold text-gray-600 mb-4">
+            <h3 className="text-2xl font-bold text-gray-600 mb-4 mt-6">
               GROWTH SOLUTIONS
             </h3>
             <p>
@@ -232,7 +215,7 @@ const BuildAws = () => {
             </p>
             <a
               href="#"
-              className="inline-block mt-4 bg-gray-500 hover:bg-purple-500 text-white font-bold py-2 px-4 rounded"
+              className="inline-block mt-8 bg-gray-500 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
             >
               Learn More
             </a>
@@ -265,7 +248,7 @@ const BuildAws = () => {
             </p>
             <a
               href="#"
-              className="inline-block mt-4 bg-gray-500  hover:bg-purple-500 text-white font-bold py-2 px-4 rounded"
+              className="inline-block mt-8 bg-gray-500  hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
             >
               Learn More
             </a>

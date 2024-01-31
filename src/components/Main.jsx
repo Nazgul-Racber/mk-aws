@@ -19,7 +19,7 @@ const Main = () => {
             <img src={Optimization} className="opacity-[0.8] max-w-80 " />
           </div> */}
           <div className="m-4">
-            <h2 className=" opacity-[0.8] text-5xl  font-bold font-serif text-violet-900 m-4  ">
+            <h2 className=" opacity-[0.8] text-5xl  font-bold font-serif text-gray-800 m-4  ">
               ELEVATE YOUR BUSINESS <br /> WITH CLOUDIFIERS
             </h2>
             <p className="text-3xl  max-w-7xl  text-teal-800  font-serif font-bold mb-8 p-4 ">
@@ -39,15 +39,15 @@ const Main = () => {
       <main className="bg-white">
         <main className="container font-bold text-gray-700 mx-auto px-2 py-2 ">
           {/* section1 */}
-          <section className="bg-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 rounded-lg mt-10 mb-8">
+          <section className="text-gray-600 bg-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 rounded-lg mt-10 mb-8">
             <div className="p-6 rounded-lg">
               <div className="flex justify-center items-center" />
 
               <img src={Push} className="max-w-full h-auto" />
-              <h3 className="text-2xl font-bold font-serif text-indigo-600 mb-4">
+              <h3 className="text-2xl font-bold font-serif  mb-4">
                 BESPOKE CLOUD STORAGE SOLUTIONS
               </h3>
-              <p className="">
+              <p>
                 Enter the cloud with confidence. Our tailored AWS Storage
                 Solutions provide secure, scalable, and cost-effective options
                 to store, manage, and access your data with ease–no matter where
@@ -55,7 +55,7 @@ const Main = () => {
               </p>
             </div>
             <div className="p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-indigo-600 mb-4">
+              <h3 className="text-2xl font-bold  mb-4">
                 COST-EFFICIENCY EXPERTISE
               </h3>
               <p>
@@ -67,7 +67,7 @@ const Main = () => {
             </div>
             <div className="p-6 rounded-lg">
               <img src={Contact} className="max-w-full h-auto" />
-              <h3 className="text-2xl font-bold text-indigo-600 mb-4">
+              <h3 className="text-2xl font-bold  mb-4">
                 PERFORMANCE OPTIMIZATION
               </h3>
               <p>
@@ -77,7 +77,7 @@ const Main = () => {
               </p>
             </div>
             <div className="p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-indigo-600 mb-4">
+              <h3 className="text-2xl font-bold  mb-4">
                 COMPREHENSIVE SUPPORT
               </h3>
               <p>
