@@ -7,6 +7,11 @@ const ConstReview = () => {
   return (
     <>
       {/* main1 */}
+      {/* <hr className="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr> */}
+      
+      <div className="bg-black h-2"></div>
+      <hr className="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr>
+      
       <main className="text-center  bg-black py-2 ">
         {/* img and title */}
         <div className="flex justify-center items-center">
