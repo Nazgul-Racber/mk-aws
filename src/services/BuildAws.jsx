@@ -10,13 +10,13 @@ const BuildAws = () => {
   return (
     <>
       {/* ===main1=== */}
-      <main className="container text-gray-700 mx-auto px- py-2 bg-white">
+      <main className="container text-gray-700 mx-auto px- py-2 bg-white m-2 p-2">
         {/* ####section#### 1 */}
         <div className=" px- py-2  mb-2 mt-10">
-          <h2 className="text-4xl font-bold font-serif text-teal-500 mb-2">
+          <h2 className="max-w-auto text-6xl font-bold font-sans text-teal-500 mb-4 ">
             BUILD AWS INFRASTRUCTURE
           </h2>
-          <p className="text-3xl text-gray-700 font-serif font-bold mb-2 ">
+          <p className="text-5xl max-w-2xl text-gray-700 font-serif font-bold mb-4">
             Accelerate Your Cloud Infrastructure with Expertise and Partnership
           </p>
           <hr class="border-teal-400 border-[1.5px] dark:border-gray-700 mb-4"></hr>
@@ -44,9 +44,7 @@ const BuildAws = () => {
               <p className="mb-3 font-semibold text-gray-700 dark:text-gray-400">
                 Collaborative Builds: We work alongside your team, not just for
                 them, fostering a collaborative environment that ensures a deep
-                understanding of the infrastructure from the ground up. No
-                Handover Hassles: With our model, your team becomes
-                self-sufficient, eliminating the need for extensive handovers.
+                understanding of the infrastructure from the ground up.
 
               </p>
             </div>
