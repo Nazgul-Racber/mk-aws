@@ -1,47 +1,58 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
-import Push from "../assets/pictures/undraw_Push_notifications_re_t84m.png";
-import Cost from "../assets/pictures/undraw_Transfer_money_re_6o1h.png";
-import Contact from "../assets/pictures/undraw_Contact_us_re_4qqt.png";
-import Solution from "../assets/pictures/undraw_Real_time_sync_re_nky7.png";
+import Bulut5 from "../assets/images/Bulut5.jpg";
+import Bulut from "../assets/images/Bulut.jpg";
+import Bulut2 from "../assets/images/Bulut7.jpg";
+import Bulut3 from "../assets/images/Bulut6.jpg";
+import Bulut4 from "../assets/images/Bulut1.jpg";
+// import Push from "../assets/pictures/undraw_Push_notifications_re_t84m.png";
+// import Cost from "../assets/pictures/undraw_Transfer_money_re_6o1h.png";
+// import Contact from "../assets/pictures/undraw_Contact_us_re_4qqt.png";
+// import Solution from "../assets/pictures/undraw_Real_time_sync_re_nky7.png";
 
 const Main = () => {
   return (
     <>
       {/* main1 */}
-      <div className="bg-[#36b6abee]   h-2"></div>
-      <hr className="border-teal-800 border-[2px] dark:border-gray-700 "></hr>
-      
-      <main className="text-center bg-[#36b6abee] py-2 ">
-        {/* img and title */}
-        <div className="flex justify-center items-center">
-          <div className="m-4">
-            <h2 className=" opacity-[0.8] text-6xl  font-bold font-sans text-gray-800 m-4  ">
-              ELEVATE YOUR BUSINESS <br /> WITH CLOUDIFIERS
-            </h2>
-            <p className="text-3xl max-w-5xl  text-zinc-100  font-sans font-bold mb-8 p-4 ">
-              Your Gateway to Advanced Cloud Solutions. Cloudifiers is committed
-              to enhancing the IT capabilities of small and medium-sized UK
-              businesses. Our mission is to demystify cloud technology, making
-              it a powerful, cost-effective tool tailored to your business
-              growth and operational efficiency.
-            </p>
-          </div>
-        </div>
+      {/* <div className="bg-[#36b6abee]   h-2"></div> */}
 
-        <hr className="border-teal-700 border-[2px] dark:border-gray-700 "></hr>
+      <main className="container  mx-auto px-2 py-2 bg-white">
+        <div className="text-center  py-2  mb-2 mt-2">
+          {/* img and title */}
+          <div className="flex justify-center items-center">
+            <div>
+              <h2 className=" text-teal-500 text-6xl font-bold font-sans">
+                ELEVATE YOUR BUSINESS WITH CLOUDIFIERS
+              </h2>
+              <p className="  text-gray-600 text-6xl font-serif font-bold mt-4 ">
+                Your Gateway to Advanced Cloud Solutions.
+              </p>
+            </div>
+            <div>
+              <img src={Bulut5} className="opacity-[0.9]" />
+            </div>
+          </div>
+          <hr className="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr>
+          <p className=" text-gray-600  text-4xl font-serif font-bold mt-4 ">
+            Cloudifiers is committed to enhancing the IT capabilities of small
+            and medium-sized UK businesses. Our mission is to demystify cloud
+            technology, making it a powerful, cost-effective tool tailored to
+            your business growth and operational efficiency.
+          </p>
+          <hr className="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr>
+        </div>
         {/* <div className="bg-orange-500 h-1"></div> */}
       </main>
       {/* main2 */}
       <main className="bg-white">
-        <main className="container font-bold text-gray-700 mx-auto px-2 py-2 ">
+        <main className="container text-2xl font-semibold text-gray-700 mx-auto px-2 py-2 ">
           {/* section1 */}
           <section className="text-gray-600 bg-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 rounded-lg mt-10 mb-8">
             <div className="p-6 rounded-lg">
               <div className="flex justify-center items-center" />
 
-              <img src={Push} className="max-w-full h-auto" />
-              <h3 className="text-2xl font-bold font-serif  mb-4">
+              <img src={Bulut} className="max-w-full h-auto" />
+              <h3 className="text-3xl font-bold font-serif  mb-4">
                 BESPOKE CLOUD STORAGE SOLUTIONS
               </h3>
               <p>
@@ -52,7 +63,7 @@ const Main = () => {
               </p>
             </div>
             <div className="p-6 rounded-lg">
-              <h3 className="text-2xl font-bold  mb-4">
+              <h3 className="text-3xl font-bold  mb-4">
                 COST-EFFICIENCY EXPERTISE
               </h3>
               <p>
@@ -60,11 +71,11 @@ const Main = () => {
                 understand and manage your cloud spending, ensuring every penny
                 is invested wisely for maximum return and efficiency.
               </p>
-              <img src={Cost} className="max-w-full h-auto" />
+              <img src={Bulut2} className="max-w-full h-auto" />
             </div>
             <div className="p-6 rounded-lg">
-              <img src={Contact} className="max-w-full h-auto" />
-              <h3 className="text-2xl font-bold  mb-4">
+              <img src={Bulut3} className="max-w-full h-auto" />
+              <h3 className="text-3xl font-bold  mb-4">
                 PERFORMANCE OPTIMIZATION
               </h3>
               <p>
@@ -74,7 +85,7 @@ const Main = () => {
               </p>
             </div>
             <div className="p-6 rounded-lg">
-              <h3 className="text-2xl font-bold  mb-4">
+              <h3 className="text-3xl font-bold  mb-4">
                 COMPREHENSIVE SUPPORT
               </h3>
               <p>
@@ -83,19 +94,16 @@ const Main = () => {
                 business. With Cloudifiers, you have a partner that's invested
                 in your success every step of the way.
               </p>
-              <img src={Solution} className="max-w-full h-auto" />
+              <img src={Bulut4} className="max-w-full h-auto" />
             </div>
           </section>
         </main>
       </main>
 
       {/* main3 */}
-      <main className="bg-[#36b6abee]">
-        <div className="bg-[#36b6abee] h-2"></div>
-        <hr className="border-teal-700 border-[1.5px] dark:border-gray-700 "></hr>
-        <main className="container  text-gray-700 font-semibold mx-auto px-4 py-2 mb-2 ">
+        <main className=" bg-stone-200 rounded-lg container text-xl text-gray-700 font-semibold mx-auto px-4 py-2 mb-8 ">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-gray-700 mb-4 mt-6">
+            <h2 className="text-5xl font-bold text-gray-600 mb-4 mt-6">
               DISCOVER HOW WE CAN HELP YOU.
             </h2>
           </div>
@@ -196,9 +204,9 @@ const Main = () => {
             </div>
           </section>
         </main>
-        <hr className="border-teal-800 border-[1.5px] dark:border-gray-700 "></hr>
-        <div className="bg-[#36b6abee]   h-2"></div>
-      </main>
+        {/* <hr className="border-teal-800 border-[1.5px] dark:border-gray-700 "></hr> */}
+        {/* <div className="bg-[#36b6abee]   h-2"></div> */}
+      
     </>
   );
 };

@@ -1,122 +1,108 @@
-import Optimization from "../assets/pictures/optimization.jpg";
+import Bulut from "../assets/images/Bulut.jpg";
+import Push from "../assets/pictures/undraw_Push_notifications_re_t84m.png";
+import Cost from "../assets/pictures/undraw_Transfer_money_re_6o1h.png";
+import Contact from "../assets/pictures/undraw_Contact_us_re_4qqt.png";
+import Solution from "../assets/pictures/undraw_Real_time_sync_re_nky7.png";
 
 const StorageSolutions = () => {
   return (
     <>
       {/* main1 */}
-      <main className="text-center bg-[#5eb9faee] py-2 ">
-        {/* img and title */}
-        <div className="flex justify-center items-center">
-          <div className="">
-            {/* <img src={Optimization} className="opacity-[0.8] max-h-80 " /> */}
-          </div>
-          <div className="">
-            <h2 className="text-3xl font-bold font-sans text-zinc-700  m-4  ">
-              STORAGE SOLUTIONS
-            </h2>
-            <p className=" text-zinc-700 text-2xl font-serif font-bold ">
-              Secure and Scale Your Data with AWS.
-            </p>
-          </div>
-        </div>
+      {/* <div className="bg-[#36b6abee]   h-2"></div> */}
 
-        <hr className="border-zinc-200 border-[1.5px] dark:border-gray-700 "></hr>
+      <main className="container  mx-auto px-2 py-2 bg-white">
+        <div className="text-center  py-2  mb-2 mt-2">
+          {/* img and title */}
+          <div className="flex justify-center items-center">
+            <div>
+              <img src={Bulut} className=" max-h-" />
+            </div>
+            <div>
+              <h2 className=" text-teal-500 text-6xl font-bold font-sans">
+                ELEVATE YOUR BUSINESS WITH CLOUDIFIERS
+              </h2>
+              <p className="  text-indigo-700 text-6xl font-serif font-bold mt-4 ">
+                Your Gateway to Advanced Cloud Solutions.
+              </p>
+            </div>
+          </div>
+          <hr className="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr>
+          <p className=" text-gray-600  text-4xl font-serif font-bold mt-4 ">
+            Cloudifiers is committed to enhancing the IT capabilities of small
+            and medium-sized UK businesses. Our mission is to demystify cloud
+            technology, making it a powerful, cost-effective tool tailored to
+            your business growth and operational efficiency.
+          </p>
+          <hr className="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr>
+        </div>
         {/* <div className="bg-orange-500 h-1"></div> */}
       </main>
       {/* main2 */}
-      <main className="bg-zinc-100 ">
-        <main className="container font-bold bg-zinc-100 text-gray-700 mx-auto px-2 py-2 ">
+      <main className="bg-white">
+        <main className="container text-2xl font-semibold text-gray-700 mx-auto px-2 py-2 ">
           {/* section1 */}
-          <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+          <section className="text-gray-600 bg-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 rounded-lg mt-10 mb-8">
             <div className="p-6 rounded-lg">
               <div className="flex justify-center items-center" />
 
-              {/* <img src={Push} className="max-w-full h-auto" /> */}
-              <h3 className="text-2xl font-bold  text-blue-500 mb-4">
-                CLOUD STORAGE FOR EVERY BUSINESS.
+              <img src={Push} className="max-w-full h-auto" />
+              <h3 className="text-3xl font-bold font-serif  mb-4">
+                BESPOKE CLOUD STORAGE SOLUTIONS
               </h3>
               <p>
-                Whether you're fully in the cloud or just starting your digital
-                transition, AWS storage solutions like S3 buckets offer a
-                flexible and secure platform for your data. Our services
-                facilitate your move to the cloud at your pace, ensuring data
-                availability and robust backup, even if your current operations
-                are not cloud-based.
+                Enter the cloud with confidence. Our tailored AWS Storage
+                Solutions provide secure, scalable, and cost-effective options
+                to store, manage, and access your data with ease–no matter where
+                you are in your cloud journey.
               </p>
             </div>
             <div className="p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-blue-500 mb-4">
-                DATA STORAGE STRATEGIZING
+              <h3 className="text-3xl font-bold  mb-4">
+                COST-EFFICIENCY EXPERTISE
               </h3>
               <p>
-                Leverage our expertise to strategically utilize AWS S3,
-                optimizing data storage for operational efficiency and
-                cost-effectiveness. We’ll help you navigate the options to find
-                the perfect fit for your data needs, whether it's frequently
-                accessed information or long-term archiving.
+                Unlock savings with our Cost Optimization service. We help you
+                understand and manage your cloud spending, ensuring every penny
+                is invested wisely for maximum return and efficiency.
+              </p>
+              <img src={Cost} className="max-w-full h-auto" />
+            </div>
+            <div className="p-6 rounded-lg">
+              <img src={Contact} className="max-w-full h-auto" />
+              <h3 className="text-3xl font-bold  mb-4">
+                PERFORMANCE OPTIMIZATION
+              </h3>
+              <p>
+                Experience peak performance with our optimization strategies. We
+                fine-tune your cloud resources for optimum efficiency, ensuring
+                fast, reliable, and uninterrupted service delivery.
               </p>
             </div>
             <div className="p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-blue-500 mb-4">
-                STORAGE COST ASSESSMENT
+              <h3 className="text-3xl font-bold  mb-4">
+                COMPREHENSIVE SUPPORT
               </h3>
               <p>
-                Keep your storage costs in check with our tailored assessments.
-                We evaluate your usage and help you select the most
-                cost-efficient AWS S3 pricing tiers, ensuring you only pay for
-                the storage you need.
+                Our ongoing Support Services ensure that your cloud
+                infrastructure keeps pace with the demands of your growing
+                business. With Cloudifiers, you have a partner that's invested
+                in your success every step of the way.
               </p>
-            </div>
-            <div className="p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-blue-500 mb-4">
-                SCALABILITY WITHOUT COMPLEXITY
-              </h3>
-              <p>
-                Our storage solutions grow with your business. We offer scalable
-                AWS storage that adapts to your changing needs, providing the
-                flexibility to expand without complexity or excess expense
-              </p>
-            </div>
-            <div className="p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-blue-500 mb-4">
-                OPTIMIZED DATA ACCESSIBILITY
-              </h3>
-              <p>
-                Maximize access to your data with our optimization strategies.
-                We guide you through efficient data retrieval methods from AWS
-                S3, balancing cost with speed and accessibility, so your data is
-                there when you need it.
-              </p>
-            </div>
-            <div className="p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-blue-500 mb-4">
-                UNMATCHED DATA PROTECTION
-              </h3>
-              <p>
-                Safeguard your data with the highest standards of security. We
-                implement AWS's comprehensive security measures, protecting your
-                data from threats and ensuring it meets regulatory compliance,
-                no matter where you are in your cloud journey.
-              </p>
+              <img src={Solution} className="max-w-full h-auto" />
             </div>
           </section>
         </main>
       </main>
 
       {/* main3 */}
-      <main className="bg-[#5eb9faee]">
-        <div className="bg-[#5eb9faee] h-2"></div>
-        <hr className="border-zinc-200 border-[1.5px] dark:border-gray-700 "></hr>
-        <main className="container  text-gray-700 font-semibold mx-auto px-4 py-2 mb-2 ">
-          <div className=" text-center mb-8">
-            <h2 className="text-3xl font-bold text-zinc-700  mb-2 mt-6">
-              FEATURED SERVICES
+      <main className="bg-stone-200">
+        {/* <div className="bg-[#36b6abee] h-2"></div> */}
+        {/* <hr className="border-teal-700 border-[1.5px] dark:border-gray-700 "></hr> */}
+        <main className="container text-xl text-gray-700 font-semibold mx-auto px-4 py-2 mb-2 ">
+          <div className="text-center mb-8">
+            <h2 className="text-5xl font-bold text-gray-600 mb-4 mt-6">
+              DISCOVER HOW WE CAN HELP YOU.
             </h2>
-
-            <p className="font-semibold font-serif text-xl text-zinc-700 mt-2 ">
-              Elevate Your Data Management with Specialized AWS Storage
-              Services.
-            </p>
           </div>
           <section className="grid text-zinc-800 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="p-6 rounded-lg">
@@ -136,18 +122,16 @@ const StorageSolutions = () => {
               </svg>
               <br />
               <h3 className="text-2xl font-bold text-zinc-700  mb-4">
-                RELIABLE DATA STORAGE
+                EFFICIENCY EVALUATION
               </h3>
               <p>
-                Whether you're operating on-premises, hybrid, or fully in the
-                cloud, our Reliable Data Storage service ensures your data is
-                securely housed in AWS's robust ecosystem. Transition at your
-                comfort level, with the assurance that your data is accessible
-                and protected.
+                Discover how to enhance your operations with our Efficiency
+                Evaluation, where we assess how to save on costs while improving
+                the overall performance of your infrastructure.
               </p>
               <a
                 href="#"
-                className="inline-block mt-4 bg-zinc-600 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-4 bg-zinc-600 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
@@ -169,18 +153,16 @@ const StorageSolutions = () => {
               </svg>
               <br />
               <h3 className="text-2xl font-bold text-zinc-700  mb-4">
-                COST-EFFICIENT STORAGE PLANNING
+                EXPENDITURE ANALYSIS
               </h3>
               <p>
-                Navigate through AWS's cost-effective storage options with our
-                Cost-Efficient Storage Planning. We provide personalized
-                consultations to help you select the most suitable AWS S3
-                storage class that aligns with your usage patterns and budgetary
-                considerations.
+                Dive deep into your spending patterns with our Expenditure
+                Analysis service. We'll pinpoint areas where you can cut back
+                without sacrificing quality or productivity.
               </p>
               <a
                 href="#"
-                className="inline-block mt-4  bg-zinc-600 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-4  bg-zinc-600 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
@@ -203,26 +185,24 @@ const StorageSolutions = () => {
               </svg>
               <br />
               <h3 className="text-2xl font-bold text-zinc-700  mb-4">
-                SCALABLE STORAGE SOLUTIONS
+                RESOURCE OPTIMIZATION SUPPORT
               </h3>
               <p>
-                Our Scalable Storage Solutions are designed to adapt to your
-                evolving business needs. We assist you in leveraging AWS's
-                scalability to handle fluctuating data loads, ensuring seamless
-                operations during peak periods and cost savings during quieter
-                times.
+                Our Resource Optimization Support goes beyond mere advice. We
+                provide ongoing assistance to ensure your operations are lean
+                and your resources are utilized to their fullest potential.
               </p>
               <a
                 href="#"
-                className="inline-block mt-4 bg-zinc-600  hover:bg-blue-500 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-4 bg-zinc-600  hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
             </div>
           </section>
         </main>
-        <hr className="border-zinc-200 border-[1.5px] dark:border-gray-700 "></hr>
-        <div className="bg-[#5eb9faee]  h-2"></div>
+        {/* <hr className="border-teal-800 border-[1.5px] dark:border-gray-700 "></hr> */}
+        {/* <div className="bg-[#36b6abee]   h-2"></div> */}
       </main>
     </>
   );

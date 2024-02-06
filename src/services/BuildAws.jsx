@@ -10,7 +10,7 @@ const BuildAws = () => {
   return (
     <>
       {/* ===main1=== */}
-      <main className="container text-gray-700 mx-auto px- py-2 bg-white m-2 p-2">
+      <main className="container text-gray-700 mx-auto bg-white m-2 p-2">
         {/* ####section#### 1 */}
         <div className=" px- py-2  mb-2 mt-10">
           <h2 className="max-w-auto text-6xl font-bold font-sans text-teal-500 mb-4 ">

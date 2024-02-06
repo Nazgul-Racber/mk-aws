@@ -6,16 +6,16 @@ const Performance = () => {
   return (
     <>
       {/* main1 */}
-      <main className=" mt-10 flex justify-center items-center text-center  py-2 ">
+      <main className="  flex justify-center items-center text-center mt-10 py-2 ">
         {/* img and title */}
         <div className="container rounded border-l-8 border-teal-700 bg-gray-200 flex justify-center items-center">
-          <img src={Optimization} className="opacity-[0.8] max-h-[400px]" />
+          <img src={Optimization} className="opacity-[0.8] mr-40 max-h-80" />
           <div className=" text-left m-10">
             <h2 className=" text-6xl font-bold font-sans text-zinc-700 mb-4  ">
               PERFORMANCE OPTIMISATION
             </h2>
             <p className="text-6xl text-teal-800  font-serif font-bold ">
-              Elevate your operational efficiency
+              Boost Your System's Capability
             </p>
           </div>
         </div>
@@ -34,12 +34,10 @@ const Performance = () => {
                 ENSURE PEAK PERFORMANCE
               </h3>
               <p>
-                In today's fast-paced digital world, optimizing your
-                infrastructure is not just an improvement, it's a necessity.
-                With AWS and The Scale Factory, gain access to the leading-edge
-                skills, tools, and expertise required to fine-tune your
-                platform. We ensure it's not only meeting today's demands but is
-                also ready to adapt to tomorrow's growth.
+                In our digital age, optimal infrastructure is critical. With
+                Cloudifiers' guidance and AWS's cutting-edge resources, we
+                ensure your platform not only meets today's needs but is primed
+                for future challenges.
               </p>
             </div>
             <div className="p-6 rounded-lg">
@@ -47,11 +45,10 @@ const Performance = () => {
                 PERFORMANCE OBJECTIVES
               </h3>
               <p>
-                Target high efficiency, achieve higher satisfaction. We help you
-                set and reach ambitious performance objectives that matter to
-                your business—whether it’s reducing latency, increasing uptime,
-                or maximizing throughput. Ensure your infrastructure
-                consistently meets and exceeds the expectations of your clients.
+                Aim high, satisfy more. We aid in setting and achieving key
+                performance goals—be it reducing delays, increasing
+                availability, or enhancing data flow—ensuring your
+                infrastructure's peak operation aligns with client expectations.
               </p>
             </div>
             <div className="p-6 rounded-lg">
@@ -59,11 +56,9 @@ const Performance = () => {
                 TECHNICAL ARCHITECTURE
               </h3>
               <p>
-                Build on a foundation designed for growth. The right
-                architecture is key to scalable performance. We guide you in
-                selecting the optimal resources and services for your workload,
-                ensuring that your system is both resilient and agile, ready to
-                grow with your business.
+                Foundation for growth. We navigate you through selecting the
+                best AWS resources and services, ensuring a robust and adaptable
+                system poised for expansion.
               </p>
             </div>
             <div className="p-6 rounded-lg">
@@ -71,10 +66,9 @@ const Performance = () => {
                 PERFORMANCE ANALYSIS
               </h3>
               <p>
-                Insight-driven enhancements. Continuously monitor and analyze
-                your infrastructure to ensure it operates at peak performance.
-                We help you identify potential bottlenecks and fine-tune your
-                resources, ensuring efficiency and a seamless user experience.
+                Monitor, refine, excel. Our continuous analysis pinpoints and
+                resolves any inefficiencies, ensuring smooth operation and
+                optimal user experience.
               </p>
             </div>
             <div className="p-6 rounded-lg">
@@ -82,10 +76,9 @@ const Performance = () => {
                 STRATEGIC GROWTH PLANNING
               </h3>
               <p>
-                Plan for success, prepare for scale. As your business grows, so
-                do your system's demands. We provide strategic planning and load
-                testing services to guarantee that your platform is ready to
-                handle increasing volumes without compromising on performance.
+                Strategize for expansion. Our services evolve with your
+                business, providing strategic insights and stress tests to
+                prepare your platform for scaling up without performance loss.
               </p>
             </div>
             <div className="p-6 rounded-lg">
@@ -93,10 +86,9 @@ const Performance = () => {
                 CONTINUOUS REVIEW
               </h3>
               <p>
-                Adapt and thrive in a changing landscape. AWS’s evolving
-                ecosystem requires a dynamic optimization strategy. We engage in
-                ongoing reviews and adjustments to ensure your platform remains
-                at the forefront of operational excellence.
+                Stay current and competitive. We proactively refine your system
+                within AWS's dynamic ecosystem, keeping your operations at peak
+                efficiency.
               </p>
             </div>
           </section>
@@ -113,11 +105,11 @@ const Performance = () => {
               FEATURED SERVICES
             </h2>
             <p className="font-semibold font-serif text-5xl  text-teal-800 mt-4 mb-4">
-              Your Pathway to Enhanced Efficiency <br /> and Scalability
+              Your Pathway to Enhanced Efficiency and Scalability
             </p>
             <p className="font-semibold font-serif text-3xl text-zinc-700 mt-4 mb-8 ">
               Discover how The Scale Factory can help you optimize the
-              performance of <br /> your infrastructure and future-proof your
+              performance <br /> of your infrastructure and future-proof your
               platform for years to come.
             </p>
           </div>
@@ -139,12 +131,12 @@ const Performance = () => {
               </svg>
               <br />
               <h3 className="text-3xl font-bold text-zinc-700  mb-4">
-                EFFICIENCY EVALUATION
+                PERFORMANCE OPTIMISATION SERVICES
               </h3>
               <p>
-                Discover how to enhance your operations with our Efficiency
-                Evaluation, where we assess how to save on costs while improving
-                the overall performance of your infrastructure.
+                Power up your infrastructure. Our bespoke services enhance
+                efficiency and reliability, supporting your immediate needs and
+                future expansion.
               </p>
               <a
                 href="#"
@@ -170,12 +162,12 @@ const Performance = () => {
               </svg>
               <br />
               <h3 className="text-3xl font-bold text-zinc-700  mb-4">
-                EXPENDITURE ANALYSIS
+                AWS WELL-ARCHITECTED REVIEW
               </h3>
               <p>
-                Dive deep into your spending patterns with our Expenditure
-                Analysis service. We'll pinpoint areas where you can cut back
-                without sacrificing quality or productivity.
+                In-depth insights for a solid foundation. Our AWS
+                Well-Architected Review uncovers opportunities to save costs and
+                bolster your system’s architecture.
               </p>
               <a
                 href="#"
@@ -202,12 +194,12 @@ const Performance = () => {
               </svg>
               <br />
               <h3 className="text-3xl font-bold text-zinc-700  mb-4">
-                RESOURCE OPTIMIZATION SUPPORT
+                PROACTIVE SUPPORT
               </h3>
               <p>
-                Our Resource Optimization Support goes beyond mere advice. We
-                provide ongoing assistance to ensure your operations are lean
-                and your resources are utilized to their fullest potential.
+                Always ahead. With our continuous support, your platform
+                operates flawlessly, ensuring you stay competitive and
+                responsive to market dynamics.
               </p>
               <a
                 href="#"
