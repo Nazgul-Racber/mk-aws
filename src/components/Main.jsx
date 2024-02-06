@@ -1,14 +1,10 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/alt-text */
+
 import Bulut5 from "../assets/images/Bulut5.jpg";
 import Bulut from "../assets/images/Bulut.jpg";
 import Bulut2 from "../assets/images/Bulut7.jpg";
 import Bulut3 from "../assets/images/Bulut6.jpg";
 import Bulut4 from "../assets/images/Bulut1.jpg";
-// import Push from "../assets/pictures/undraw_Push_notifications_re_t84m.png";
-// import Cost from "../assets/pictures/undraw_Transfer_money_re_6o1h.png";
-// import Contact from "../assets/pictures/undraw_Contact_us_re_4qqt.png";
-// import Solution from "../assets/pictures/undraw_Real_time_sync_re_nky7.png";
+
 
 const Main = () => {
   return (
@@ -24,16 +20,14 @@ const Main = () => {
               <h2 className=" text-teal-500 text-6xl font-bold font-sans">
                 ELEVATE YOUR BUSINESS WITH CLOUDIFIERS
               </h2>
-              <p className="  text-gray-600 text-6xl font-serif font-bold mt-4 ">
-                Your Gateway to Advanced Cloud Solutions.
-              </p>
+              
             </div>
             <div>
               <img src={Bulut5} className="opacity-[0.9]" />
             </div>
           </div>
           <hr className="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr>
-          <p className=" text-gray-600  text-4xl font-serif font-bold mt-4 ">
+          <p className=" text-gray-600  text-4xl font-sans font-bold mt-8 mb-8 ">
             Cloudifiers is committed to enhancing the IT capabilities of small
             and medium-sized UK businesses. Our mission is to demystify cloud
             technology, making it a powerful, cost-effective tool tailored to

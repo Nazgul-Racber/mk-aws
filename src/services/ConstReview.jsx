@@ -14,10 +14,10 @@ const ConstReview = () => {
         {/* img and title */}
         <div className="flex justify-center items-center">
           <div className="mr-2">
-            <img src={analysıs} className=" " />
+            <img src={analysıs} className="" />
           </div>
           <div className="">
-            <h2 className="text-6xl font-bold font-sans text-teal-500 m-4 mt-8">
+            <h2 className="text-6xl font-bold font-sans text-teal-500 m-4 mt-2">
               COST OPTIMIZATION
             </h2>
             <p className="mb-4 text-teal-700 text-6xl font-serif font-bold ">

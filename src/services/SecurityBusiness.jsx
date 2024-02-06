@@ -1,4 +1,4 @@
-// import Time from "../assets/pictures/time.jpg";
+
 import Cloud from "../assets/pictures/grup03.jpg";
 import Grup from "../assets/pictures/grup005.jpg";
 
@@ -108,7 +108,7 @@ const SecurityBusiness = () => {
         {/* alt açıklama main 2 ye taşındı. */}
       </main>
       {/* main2 */}
-      <main className="container mx-auto px-2 py-2 mt-8 mb-8 bg-white">
+      <main className="container mx-auto px-2 py-2 mt-8 mb-8 bg-zinc-100 rounded-lg">
         <div className="text-center px-2 py-2  mb-2 mt-4">
           {/* img and title */}
           <div className="flex justify-center items-center mt-4 mb-4">
