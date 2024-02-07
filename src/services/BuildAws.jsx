@@ -1,7 +1,7 @@
 
-import Push from "../assets/pictures/undraw_Push_notifications_re_t84m.png";
-import Delivery from "../assets/pictures/undraw_Collaborators_re_hont.png";
-import Contact from "../assets/pictures/undraw_Contact_us_re_4qqt.png";
+import Push from "../assets/pictures/svg-b.png";
+import Delivery from "../assets/pictures/partners_new.png";
+import Contact from "../assets/pictures/rocht-ab-tullinge-kontakt-1.png";
 
 const BuildAws = () => {
   return (

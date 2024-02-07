@@ -17,6 +17,7 @@ import Performance from "../services/Performance";
 import WebsiteDesing from "../services/WebsiteDesing";
 import StorageSolutions from "../services/StorageSolutions";
 import SecurityBusiness from "../services/SecurityBusiness";
+import AboutUs from "../pages/AboutUs";
 
 const AppRouter = () => {
   // eslint-disable-next-line no-undef
@@ -45,6 +46,8 @@ const AppRouter = () => {
         <Route path="/Performance" element={<Performance />} />
         <Route path="/WebsiteDesing" element={<WebsiteDesing />} />
         <Route path="/StorageSolutions" element={<StorageSolutions />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
+
       </Routes>
 
       <FooterWithSitemap />

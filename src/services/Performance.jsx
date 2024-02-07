@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 
-import Optimization from "../assets/pictures/optimization.jpg";
+import Optimization from "../assets/images/Bulut8.jpg";
 
 const Performance = () => {
   return (
@@ -8,13 +8,16 @@ const Performance = () => {
       {/* main1 */}
       <main className="  flex justify-center items-center text-center mt-10 py-2 ">
         {/* img and title */}
-        <div className="container rounded border-l-8 border-teal-700 bg-gray-200 flex justify-center items-center">
-          <img src={Optimization} className="opacity-[0.8] mr-40 max-h-80" />
+        <div className=" container rounded border-l-8 border-teal-700 bg-[#a4d6d6] flex justify-center items-center">
+          <div>
+            <img src={Optimization} className="opacity-[0.8]  max-h-80" />
+          </div>
+          
           <div className=" text-left m-10">
-            <h2 className=" text-6xl font-bold font-sans text-zinc-700 mb-4  ">
+            <h2 className=" text-5xl font-bold font-sans text-zinc-700 mb-4  ">
               PERFORMANCE OPTIMISATION
             </h2>
-            <p className="text-6xl text-teal-800  font-serif font-bold ">
+            <p className="text-6xl text-teal-800  font-sans font-bold ">
               Boost Your System's Capability
             </p>
           </div>
@@ -104,7 +107,7 @@ const Performance = () => {
             <h2 className="text-6xl font-bold text-zinc-700  mb-8 mt-8">
               FEATURED SERVICES
             </h2>
-            <p className="font-semibold font-serif text-5xl  text-teal-800 mt-4 mb-4">
+            <p className="font-bold font-sans text-5xl  text-teal-800 mt-4 mb-4">
               Your Pathway to Enhanced Efficiency and Scalability
             </p>
             <p className="font-semibold font-serif text-3xl text-zinc-700 mt-4 mb-8 ">
@@ -140,7 +143,7 @@ const Performance = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4 bg-zinc-700 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-12 bg-zinc-700 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
@@ -203,7 +206,7 @@ const Performance = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4 bg-zinc-700  hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-12 bg-zinc-700  hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
