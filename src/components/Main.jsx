@@ -46,7 +46,7 @@ const Main = () => {
               <div className="flex justify-center items-center" />
 
               <img src={Bulut} className="max-w-full h-auto" />
-              <h3 className="text-3xl font-bold font-serif  mb-4">
+              <h3 className="text-3xl font-bold font-sans  mb-4">
                 BESPOKE CLOUD STORAGE SOLUTIONS
               </h3>
               <p>
@@ -65,7 +65,7 @@ const Main = () => {
                 understand and manage your cloud spending, ensuring every penny
                 is invested wisely for maximum return and efficiency.
               </p>
-              <img src={Bulut2} className="max-w-full h-auto" />
+              <img src={Bulut2} className="max-w-full h-auto mt-8" />
             </div>
             <div className="p-6 rounded-lg">
               <img src={Bulut3} className="max-w-full h-auto" />
@@ -98,7 +98,7 @@ const Main = () => {
         <main className=" bg-stone-200 rounded-lg container text-xl text-gray-700 font-semibold mx-auto px-4 py-2 mb-8 ">
           <div className="text-center mb-8">
             <h2 className="text-5xl font-bold text-gray-600 mb-4 mt-6">
-              DISCOVER HOW WE CAN HELP YOU.
+              DISCOVER HOW WE CAN HELP YOU
             </h2>
           </div>
           <section className="grid text-zinc-800 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -128,7 +128,7 @@ const Main = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4 bg-zinc-600 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-11 bg-zinc-600 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
@@ -159,7 +159,7 @@ const Main = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4  bg-zinc-600 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-11  bg-zinc-600 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
@@ -191,7 +191,7 @@ const Main = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4 bg-zinc-600  hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-4 bg-zinc-600  hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>

@@ -107,10 +107,10 @@ const StorageSolutions = () => {
       </main>
 
       {/* main3 */}
-      <main className="bg-stone-200">
+      <main className="">
         {/* <div className="bg-[#36b6abee] h-2"></div> */}
         {/* <hr className="border-teal-700 border-[1.5px] dark:border-gray-700 "></hr> */}
-        <main className="container text-xl text-gray-700 font-semibold mx-auto px-4 py-2 mb-2">
+        <main className="bg-[#c1e7e2] rounded-xl container text-xl text-gray-700 font-semibold mx-auto px-4 py-2 mb-8">
           <div className="text-center mb-8">
             <h2 className="text-5xl font-bold text-gray-600 mb-4 mt-6">
               DISCOVER HOW WE CAN HELP YOU.
@@ -146,7 +146,7 @@ const StorageSolutions = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4 bg-zinc-600 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-4 bg-zinc-600 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
@@ -177,7 +177,7 @@ const StorageSolutions = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4  bg-zinc-600 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-11  bg-zinc-600 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
@@ -209,7 +209,7 @@ const StorageSolutions = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4 bg-zinc-600  hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-11 bg-zinc-600  hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>

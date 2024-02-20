@@ -1,28 +1,25 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Typography } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
- 
 const SITEMAP = [
   {
     title: "Company",
-    links: ["About Us", "Careers", "Our Team", "Projects"],
+    links: ["About Us", "Cookies", "Privacy Policy"],
   },
   {
     title: "Help Center",
-    links: ["Discord", "Twitter", "GitHub", "Contact Us"],
+    links: ["Contact Us"],
   },
   {
-    title: "Resources",
-    links: ["Blog", "Newsletter", "Free Products", "Affiliate Program"],
-  },
-  {
-    title: "Products",
-    links: ["Templates", "UI Kits", "Icons", "Mockups"],
+    title:
+      "With our expertise in cloud computing and relentless pursuit of excellence, we empower businesses to thrive in the digital age.",
+    links: [""],
   },
 ];
- 
+
 const currentYear = new Date().getFullYear();
- 
+
 export function FooterWithSitemap() {
   return (
     <footer className="relative w-full bg-gray-900">
@@ -33,7 +30,7 @@ export function FooterWithSitemap() {
               <Typography
                 variant="small"
                 color="white"
-                className="mb-4 font-bold uppercase opacity-90 text-orange-600"
+                className="mb-4 font-bold  opacity-50 "
               >
                 {title}
               </Typography>
@@ -45,13 +42,17 @@ export function FooterWithSitemap() {
                     color="white"
                     className="font-normal"
                   >
-                    <a
-                      href="#"
-                      className="inline-block py-1 pr-2 transition-transform hover:scale-125 hover:text-red-300"
+                    <Link
+                      as={link}
+                      to="/about"
+                      className="text-xl inline-block py-1 pr-2 transition-transform hover:scale-125 hover:text-teal-400"
                     >
                       {link}
-                    </a>
+                    </Link>
                   </Typography>
+
+                  
+
                 ))}
               </ul>
             </div>
@@ -63,14 +64,14 @@ export function FooterWithSitemap() {
             className="mb-4 text-center font-normal text-white md:mb-0"
           >
             &copy; {currentYear}{" "}
-            <a href="https://material-tailwind.com/">Material Tailwind</a>. All
-            Rights Reserved.
+            <a href="https://material-tailwind.com/">Couldifiers</a>. All Rights
+            Reserved.
           </Typography>
           <div className="flex gap-4 text-white sm:justify-center">
             <Typography
               as="a"
               href="#"
-              className="opacity-80 transition-opacity hover:opacity-100 hover:text-blue-500 hover:scale-150"
+              className="opacity-80 transition-opacity hover:opacity-100 hover:scale-150"
             >
               <svg
                 className="h-8 w-8"
@@ -88,7 +89,7 @@ export function FooterWithSitemap() {
             <Typography
               as="a"
               href="#"
-              className="opacity-80 transition-opacity hover:opacity-100 hover:scale-150 hover:text-pink-500"
+              className="opacity-80 transition-opacity hover:opacity-100 hover:scale-150"
             >
               <svg
                 className="h-8 w-8"
@@ -106,7 +107,7 @@ export function FooterWithSitemap() {
             <Typography
               as="a"
               href="#"
-              className="opacity-80 transition-opacity hover:opacity-100 hover:scale-150 hover:text-cyan-400"
+              className="opacity-80 transition-opacity hover:opacity-100 hover:scale-150"
             >
               <svg
                 className="h-8 w-8"
@@ -120,7 +121,7 @@ export function FooterWithSitemap() {
             <Typography
               as="a"
               href="#"
-              className="opacity-80 transition-opacity hover:opacity-100 hover:scale-150 hover:text-purple-500"
+              className="opacity-80 transition-opacity hover:opacity-100 hover:scale-150"
             >
               <svg
                 className="h-8 w-8"
@@ -138,7 +139,7 @@ export function FooterWithSitemap() {
             <Typography
               as="a"
               href="#"
-              className="opacity-80 transition-opacity hover:opacity-100 hover:scale-150 hover:text-orange-500"
+              className="opacity-80 transition-opacity hover:opacity-100 hover:scale-150"
             >
               <svg
                 className="h-8 w-8"

@@ -1,7 +1,7 @@
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
-import analysıs from "../assets/img/optim4.jpg";
+import analysıs from "../assets/pictures/Notification.png";
 
 
 const ConstReview = () => {
@@ -10,25 +10,27 @@ const ConstReview = () => {
       {/* main1 */}
       {/* <hr className="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr> */}
 
-      <main className="text-center py-2 ">
+      <main className="text-center py-2">
         {/* img and title */}
-        <div className="flex justify-center items-center">
-          <div className="mr-2">
-            <img src={analysıs} className="" />
+        <div className=" flex justify-center items-center gap-8">
+          <div className="mt-10 mb-4 p-4">
+            <img src={analysıs} className=" max-h-[300px]" />
           </div>
-          <div className="">
-            <h2 className="text-6xl font-bold font-sans text-teal-500 m-4 mt-2">
+          <div className="p-16 mr-16 ">
+            <h2 className="text-6xl font-bold font-sans text-teal-500 m-4">
               COST OPTIMIZATION
             </h2>
-            <p className="mb-4 text-teal-700 text-6xl font-serif font-bold ">
-              Minimize Your Expenses
-            </p>
-            <p className="mb-4 text-teal-400 text-7xl font-serif font-bold ">
+            <p className="mb-4 text-gray-500 text-6xl font-sans font-bold ">
               Maximize Your Growth
             </p>
-            <hr className="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr>
+            <p className="mb-4 text-gray-500 text-6xl font-sans font-bold ">
+              Minimize Your Expenses
+            </p>
+            <hr className="border-teal-400 border-[1.5px] dark:border-gray-700"></hr>
           </div>
+          
         </div>
+        
       </main>
       {/* main2 */}
       <main className=" container text-2xl font-semibold  text-gray-600 mx-auto  py-2">
@@ -121,8 +123,8 @@ const ConstReview = () => {
             <h2 className="text-5xl font-bold text-gray-500  mb-4 mt-6">
               FEATURED SERVICES
             </h2>
-            <p className="font-semibold font-serif text-3xl text-gray-500 ">
-              Strategic Cost Management for Long-Term Growth.
+            <p className="font-bold font-sans text-3xl text-gray-500 ">
+              Strategic Cost Management for Long-Term Growth
             </p>
           </div>
           <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -152,7 +154,7 @@ const ConstReview = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4 bg-gray-500 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-6 bg-gray-500 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
@@ -183,7 +185,7 @@ const ConstReview = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4  bg-gray-500 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-14  bg-gray-500 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>

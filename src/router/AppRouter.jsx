@@ -18,6 +18,11 @@ import WebsiteDesing from "../services/WebsiteDesing";
 import StorageSolutions from "../services/StorageSolutions";
 import SecurityBusiness from "../services/SecurityBusiness";
 import AboutUs from "../pages/AboutUs";
+import WorkWithUs from "../pages/WorkWithUs";
+import Cookies from "../components/footerextra/Cookies";
+import PrivacyStatement from "../components/footerextra/PrivacyStatement";
+import Insıght from "../pages/Insight";
+
 
 const AppRouter = () => {
   // eslint-disable-next-line no-undef
@@ -36,6 +41,9 @@ const AppRouter = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact onSubmit={handleSubmit} />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/Insıght" element={<Insıght />} />
+        <Route path="/WorkWithUs" element={<WorkWithUs />} />
         <Route path="/fullstack" element={<FullStack />} />
         <Route path="/awsWellAr" element={<AwsWellAr />} />
         <Route path="/BuildAws" element={<BuildAws />} />
@@ -46,8 +54,8 @@ const AppRouter = () => {
         <Route path="/Performance" element={<Performance />} />
         <Route path="/WebsiteDesing" element={<WebsiteDesing />} />
         <Route path="/StorageSolutions" element={<StorageSolutions />} />
-        <Route path="/AboutUs" element={<AboutUs />} />
-
+        <Route path="/Cookies" element={<Cookies />} />
+        <Route path="/Privacy" element={<PrivacyStatement />} />
       </Routes>
 
       <FooterWithSitemap />

@@ -7,13 +7,12 @@ const BuildAws = () => {
   return (
     <>
       {/* ===main1=== */}
-      <main className="container text-gray-700 mx-auto bg-white m-2 p-2">
-        {/* ####section#### 1 */}
+      <main className="container text-gray-500 mx-auto bg-white m-2 p-2">
         <div className=" px- py-2  mb-2 mt-10">
           <h2 className="max-w-auto text-6xl font-bold font-sans text-teal-500 mb-4 ">
             BUILD AWS INFRASTRUCTURE
           </h2>
-          <p className="text-5xl max-w-2xl text-gray-700 font-serif font-bold mb-4">
+          <p className="text-5xl max-w-2xl font-sans font-bold mb-4">
             Accelerate Your Cloud Infrastructure with Expertise and Partnership
           </p>
           <hr class="border-teal-400 border-[1.5px] dark:border-gray-700 mb-4"></hr>
@@ -30,15 +29,15 @@ const BuildAws = () => {
           {/* =====a1==== */}
           <a
             href="#"
-            className="text-lg shadow-lg shadow-teal-500  flex flex-col items-center bg-white border border-purple-200 rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="text-lg shadow-lg h-80 shadow-teal-500  flex flex-col items-center bg-white border border-purple-200 rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
             <article className="rounded p-2 h-full bg-teal-500"></article>
 
-            <div className="  flex flex-col justify-between p-4 leading-normal">
-              <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-700 dark:text-white">
+            <div className="text-gray-600 text-xl flex flex-col justify-between p-4 leading-normal">
+              <h5 className="mb-2 text-gray-600 text-3xl font-bold tracking-tight  dark:text-white">
                 Why Choose Us?
               </h5>
-              <p className="mb-3 text-gray-700 dark:text-gray-400">
+              <p className=" mb-3 dark:text-gray-400">
                 Collaborative Builds: We work alongside your team, not just for
                 them, fostering a collaborative environment that ensures a deep
                 understanding of the infrastructure from the ground up.
@@ -48,15 +47,15 @@ const BuildAws = () => {
           {/* ====a2===== */}
           <a
             href="#"
-            className="text-lg shadow-lg shadow-teal-500 flex flex-col items-center bg-white border border-purple-200 rounded-lg md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="text-lg shadow-lg h-80 shadow-teal-500 flex flex-col items-center bg-white border border-purple-200 rounded-lg md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
             <article className="rounded p-2 h-full bg-teal-500"></article>
 
-            <div className="flex flex-col justify-between p-4 leading-normal">
-              <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-700 dark:text-white">
+            <div className="text-gray-600 text-xl flex flex-col justify-between p-4 leading-normal">
+              <h5 className="mb-2 text-3xl font-bold tracking-tight  dark:text-white">
                 Continuity of Support
               </h5>
-              <p className="mb-3 font-semibold text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-semibold  dark:text-gray-400">
                 Completing your AWS build is just the beginning. Stay connected
                 with ongoing support through our Support Subscription. We're
                 here to ensure your infrastructure evolves with your business.
@@ -66,7 +65,7 @@ const BuildAws = () => {
           {/* ======a3===== */}
           <a
             href="#"
-            className="text-lg shadow-lg shadow-teal-500 flex flex-col items-center bg-white border border-purple-200 rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="text-lg shadow-lg h-80 shadow-teal-500 flex flex-col items-center bg-white border border-purple-200 rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
             <article className="rounded p-2 h-full bg-teal-500"></article>
             {/* <img
@@ -74,8 +73,8 @@ const BuildAws = () => {
               src="Part3"
               alt=""
             /> */}
-            <div className=" flex flex-col justify-between p-4 leading-normal">
-              <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-700 dark:text-white">
+            <div className=" text-gray-600 text-xl flex flex-col justify-between p-4 leading-normal">
+              <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-600 dark:text-white">
                 Engage with Our AWS Specialists
               </h5>
               <p className="font-semibold text-gray-700 dark:text-gray-400">
@@ -87,22 +86,22 @@ const BuildAws = () => {
             </div>
           </a>
         </section>
-        <div className="px- py-2  mb-2 mt-8">
+            {/* main2 */}
+        <main className="px- py-2   mb-2 mt-8">
           <h2 className="text-6xl font-bold font-sans text-teal-500 mb-4 mt-16">
-            Your AWS Partner for Growth
+            YOUR AWS PARTNER FOR GROWTH
           </h2>
-          <p className="text-3xl font-sans font-bold mb-4 ">
-            The Scale Factory is your dedicated partner in optimizing AWS cloud
+          <p className="text-5xl font-sans font-bold mb-4 ">
+            Cloudifiers is your dedicated partner in optimizing AWS cloud
             solutions to enhance agility, <br /> accelerate innovation, and
             drive success for dynamic small and medium-sized enterprises.
           </p>
           <hr class="border-teal-400 border-[1.5px] dark:border-gray-700 "></hr>
-        </div>
-        <section className="text-gray-700 text-xl font-semibold grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+          <section className="mt-8 mb-8 text-gray-500 text-2xl font-semibold grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           <div className="p-6 rounded-lg">
             <div className="flex justify-center items-center" />
-            <img src={Push} className="max-w-full h-auto" />
-            <h3 className="text-3xl font-bold font-serif text-gray-700 mb-4">
+            <img src={Push} className="max-w-full h-auto mt-4" />
+            <h3 className="text-4xl font-bold font-serif text-teal-500 mb-4 mt-8">
               DEPLOY
             </h3>
             <p className="">
@@ -114,7 +113,7 @@ const BuildAws = () => {
             </p>
           </div>
           <div className="p-6 rounded-lg">
-            <h3 className="text-3xl font-bold font-serif text-gray-700 mb-4">
+            <h3 className="text-4xl font-bold font-serif text-teal-500 mb-4 mt-4">
               MIGRATE
             </h3>
             <p>
@@ -124,11 +123,11 @@ const BuildAws = () => {
               downtime and leverage potential funding opportunities from AWS to
               optimize your move.
             </p>
-            <img src={Delivery} className="max-w-full h-auto" />
+            <img src={Delivery} className="max-w-full h-auto mt-8" />
           </div>
           <div className="p-6 rounded-lg">
-            <img src={Contact} className="max-w-full h-auto" />
-            <h3 className="text-3xl font-bold font-serif text-gray-700 mb-4">
+            <img src={Contact} className="max-w-full h-auto mt-2" />
+            <h3 className="text-4xl font-bold font-serif text-teal-500 mb-4 mt-14">
               UPGRADE
             </h3>
             <p>
@@ -139,12 +138,15 @@ const BuildAws = () => {
             </p>
           </div>
         </section>
+        </main>
+        
       </main>
-      {/* ====main2==== */}
-      <main className="container text-gray-600 font-semibold mx-auto mt-8 mb-8 p-8 bg-gray-100 rounded-lg">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-600 mb-4 mt-6">
-            DISCOVER HOW WE CAN HELP YOU
+      {/* ====main3==== */}
+      <main className="bg-[#90d3d7]">
+        <main className="container text-xl text-gray-600 font-semibold mx-auto mt-8 p-8 rounded-lg">
+          <div className=" text-center mb-8">
+          <h2 className="text-4xl font-bold text-gray-600 mb-4 mt-6">
+            DISCOVER HOW WE CAN ENHANCE YOUR BUSINESS
           </h2>
         </div>
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -204,7 +206,7 @@ const BuildAws = () => {
             </p>
             <a
               href="#"
-              className="inline-block mt-8 bg-gray-500 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
+              className="inline-block mt-16 bg-gray-500 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
             >
               Learn More
             </a>
@@ -235,14 +237,14 @@ const BuildAws = () => {
             </p>
             <a
               href="#"
-              className="inline-block mt-8 bg-gray-500  hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
+              className="inline-block mt-16 bg-gray-500  hover:bg-teal-500 text-white font-bold py-2 px-4 rounded"
             >
               Learn More
             </a>
           </div>
         </section>
+        </main>  
       </main>
-      <br />
     </>
   );
 };

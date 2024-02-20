@@ -1,5 +1,5 @@
 
-import Optimization from "../assets/pictures/grup02.jpg";
+import Optimization from "../assets/pictures/grup03.png";
 
 const BachupDisaster = () => {
   return (
@@ -9,22 +9,22 @@ const BachupDisaster = () => {
         {/* img and title */}
         <div className="container">
           <div className=" rounded flex justify-center items-center">
-            
-          <div className="max-w-[400px]">
-            <img src={Optimization} className="opacity-[0.9]" />
-          </div>
-            
-            <div className=" text-left m-10">
+            <div className="max-w-[400px]">
+              <img src={Optimization} className="opacity-[0.9]" />
+            </div>
+
+            <div className=" m-10">
               <h2 className=" text-7xl font-bold font-sans text-teal-500 mb-4  ">
                 BACKUP-DISASTER
               </h2>
-              <p className="text-6xl text-stone-700 font-serif font-bold ">
-                Ensure continuity and <br /> resilience in the face <br /> of the unexpected.
+              <p className="text-6xl text-gray-500 font-sans font-bold ">
+                Ensure continuity and resilience <br /> in the face of the
+                unexpected
               </p>
-          </div>          
-          </div>        
+            </div>
+          </div>
           <hr className=" border-teal-400 border-[1.5px] dark:border-gray-700 "></hr>
-        </div>                 
+        </div>
       </main>
 
       {/* main2 */}
@@ -110,8 +110,8 @@ const BachupDisaster = () => {
             Your Partners in Resilience and Continuity.
           </p>
           <p className="text-gray-600 font-bold text-4xl">
-            Discover how The Scale Factory can help you develop a best-in-class
-            backup strategy and a bulletproof disaster recovery plan.
+            Discover how Cloudifiers can help you develop a best-in-class backup
+            strategy and a bulletproof disaster recovery plan.
           </p>
         </div>
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-2">

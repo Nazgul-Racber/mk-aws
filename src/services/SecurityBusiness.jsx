@@ -1,5 +1,5 @@
 import Grup from "../assets/pictures/Security-amico-1.png";
-import Cloud from "../assets/pictures/grup03.jpg";
+import Cloud from "../assets/pictures/top_right_bnt.png";
 
 
 const SecurityBusiness = () => {
@@ -9,8 +9,8 @@ const SecurityBusiness = () => {
         <div className="text-center px- py-2  mb-2 mt-2">
           {/* img and title */}
           <div className="flex justify-center items-center">
-            <div>
-              <img src={Grup} className=" opacity-[0.9] mr-4 max-h-[400px]" />
+            <div className="mt-10 ">
+              <img src={Grup} className="py-6 mr-16 max-h-[350px]" />
             </div>
             <div>
               <h2 className=" text-teal-500 text-7xl font-bold font-sans">
@@ -108,8 +108,8 @@ const SecurityBusiness = () => {
         {/* alt açıklama main 2 ye taşındı. */}
       </main>
       {/* main2 */}
-      <main className="container mx-auto px-2 py-2 mt-8 mb-8 rounded-lg">
-        <div className="text-center px-2 py-2  mb-2 mt-4">
+      <main className="bg-gray-100 container mx-auto px-2 py-2 mt-8 mb-8 rounded-lg">
+        <div className=" text-center px-2 py-2  mb-2 mt-4">
           {/* img and title */}
           <div className="flex justify-center items-center mt-4 mb-4">
             <div className="max-w-4xl mr-10">
@@ -120,12 +120,12 @@ const SecurityBusiness = () => {
                 Your Trusted Partner in System Security
               </p>
               <p className="mb-2 text-gray-600 text-4xl font-sans font-semibold">
-                Discover how The Scale Factory can help you to secure your
+                Discover how Cloudifiers can help you to secure your
                 systems, protect your data, and grow your business.
               </p>
             </div>
             <div>
-              <img src={Cloud} className=" max-h-90 " />
+              <img src={Cloud} className=" max-h-[400px] " />
             </div>
           </div>
 

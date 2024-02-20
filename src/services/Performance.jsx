@@ -12,7 +12,7 @@ const Performance = () => {
           <div>
             <img src={Optimization} className="opacity-[0.8]  max-h-80" />
           </div>
-          
+
           <div className=" text-left m-10">
             <h2 className=" text-5xl font-bold font-sans text-zinc-700 mb-4  ">
               PERFORMANCE OPTIMISATION
@@ -111,9 +111,9 @@ const Performance = () => {
               Your Pathway to Enhanced Efficiency and Scalability
             </p>
             <p className="font-semibold font-serif text-3xl text-zinc-700 mt-4 mb-8 ">
-              Discover how The Scale Factory can help you optimize the
-              performance <br /> of your infrastructure and future-proof your
-              platform for years to come.
+              Discover how Cloudifiers can help you optimize the performance
+              of your infrastructure and future-proof your platform for
+              years to come.
             </p>
           </div>
           <section className=" text-2xl font-semibold grid text-zinc-800 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -143,7 +143,7 @@ const Performance = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-12 bg-zinc-700 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-12 bg-zinc-700 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
@@ -174,7 +174,7 @@ const Performance = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4  bg-zinc-700 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-4  bg-zinc-700 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
@@ -206,7 +206,7 @@ const Performance = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-12 bg-zinc-700  hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
+                className="inline-block mt-12 bg-zinc-700  hover:bg-teal-600 text-white font-bold py-2 px-4 rounded"
               >
                 Learn More
               </a>
